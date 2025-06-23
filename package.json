@@ -1,0 +1,25 @@
+{
+  "name": "cashback-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram бот для управления кешбэком по банкам",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.7",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "cashback",
+    "banking"
+  ],
+  "author": "",
+  "license": "MIT"
+}
