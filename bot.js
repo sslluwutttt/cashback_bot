@@ -116,7 +116,7 @@ bot.hears("🔍 Узнать кешбэк по категории", (ctx) => {
 
 // Обработка выбора банка для управления
 BANKS.forEach((bank) => {
-  bot.hears(`💳 ${bank}`, (ctx) => {
+  bot.hears(`${bank}`, (ctx) => {
     if (userStates[ctx.from.id]?.state === "selecting_bank_for_management") {
       ctx.reply(
         `Вы выбрали ${bank}. Что хотите сделать?`,
